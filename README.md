@@ -1,6 +1,6 @@
 # IRremote Arduino Library
 
-WARNING! RECEIVING IR MIGHT NOT WORK WITH THIS LIBRARY MOD!
+The library works on all listed AVRs, except on the Attiny85 you CAN NOT use the receiving functions!
 
 [![Build Status](https://travis-ci.org/z3t0/Arduino-IRremote.svg?branch=master)](https://travis-ci.org/z3t0/Arduino-IRremote)
 
