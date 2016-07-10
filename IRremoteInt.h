@@ -597,7 +597,7 @@ EXTERN  volatile irparams_t  irparams;
 #define TIMER_ENABLE_PWM     (TCCR1 |= _BV(COM1A0))
 #define TIMER_DISABLE_PWM    (TCCR1 &= ~(_BV(COM1A0)))
 #define TIMER_ENABLE_INTR    (TIMSK |= _BV(OCIE0A))
-#define TIMER_DISABLE_INTR   (TIMSK &= ~(_BV(OCIE0A)))
+#define TIMER_DISABLE_INTR //  (TIMSK &= ~(_BV(OCIE0A)))
 #define TIMER_INTR_NAME      TIMER0_COMPA_vect
 /*#define TIMER_CONFIG_KHZ(val) ({ \
   const uint8_t pwmval = SYSCLOCK / 2000 / (val); \
